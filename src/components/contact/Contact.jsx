@@ -35,12 +35,6 @@ const Contact = () => {
             <h5>https://t.me/MaksimProgrammist</h5>
             <a href='https://t.me/MaksimProgrammist' target='_blank'>Send a message</a>
           </article>
-          <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon' />
-            <h4>Whatsapp</h4>
-            <h5>+79048260066</h5>
-            <a href='https://api.whatsapp.com/send?phone+79048260066' target='_blank'>Send a message</a>
-          </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />

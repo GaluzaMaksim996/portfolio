@@ -21,7 +21,6 @@ const Footer = () => {
       <div className="footer__socials">
         <a href='https://t.me/MaksimProgrammist'><FaTelegramPlane /></a>
         <a href='https://github.com/GaluzaMaksim996'><FaGithub /></a>
-        <a href='https://api.whatsapp.com/send?phone+79048260066'><FaWhatsapp /></a>
       </div>
 
       <div className="footer__copyright">
